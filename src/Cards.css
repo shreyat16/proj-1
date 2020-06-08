@@ -1,0 +1,20 @@
+.Cards{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.Discover{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Discover:hover{
+    text-decoration: underline;
+}
+
+.DiscoverTypes{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}

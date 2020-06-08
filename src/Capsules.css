@@ -1,0 +1,14 @@
+.Capsules{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.TypesofTravel{
+    text-align: center;
+    font-size: 20px;
+}
+
+.TypesofTravel:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.Card{
+    color: white;
+    width:190px;
+    height: 300px;
+    border-radius: 15px;
+    padding-left: 10px;
+    transition: all ease 500ms;
+}
+
+.Rating{
+    background-color: gray;
+    opacity: 0.8;
+    border: gray solid 2px;
+    border-radius: 50px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 15px;
+}
+
+.Info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Card-img {
+    width:200px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.Card:hover{
+    transform: scale(1.25);
+    opacity:0.7;
+    text-decoration: underline;
+}
